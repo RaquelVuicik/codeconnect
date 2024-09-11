@@ -1,10 +1,13 @@
-import "./styles.css";
-
+import './styles.css'
 export default function Ordenacao() {
     return (
-        <div className="container-ordenacao">
-            <button className="botao botao-ativo">Recentes</button>
-            <button className="botao">Recentes</button>
-        </div>
+        <ul className="lista-ordenacao">
+            <li>
+                <a href='' className='lista-ordenacao__link lista-ordenacao__link--ativo'>Recentes</a>
+            </li>
+            <li>
+                <a href='' className='lista-ordenacao__link'>Recentes</a>
+            </li>
+        </ul>
     )
 }

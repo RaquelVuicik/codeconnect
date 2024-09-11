@@ -1,19 +1,23 @@
-.container-ordenacao {
-    display: flex;
-    justify-content: center;
-    gap: 1.75em;
-    margin-top: 3.5em;
-}
-
-.botao {
-    border: none;
-    background-color: transparent;
-    color: var(--cinza-médio);
+.lista-ordenacao__link {
     font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    color: var(--cinza-médio);
+    text-decoration: none;
 }
 
-.botao-ativo {
+.lista-ordenacao__link--ativo {
     color: var(--verde-destaque);
     font-weight: 600;
     text-decoration: underline;
+}
+
+.lista-ordenacao {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 56px;
+    margin-bottom: 32px;
 }
