@@ -12,11 +12,8 @@
     font-size: 22px;
 }
 
-.botao--ativo {
-    border: none;
-    background-color: transparent;
+.botao-ativo {
     color: var(--verde-destaque);
-    font-size: 22px;
     font-weight: 500;
     text-decoration: underline;
 }
