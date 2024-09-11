@@ -1,0 +1,22 @@
+.container-ordenacao {
+    display: flex;
+    justify-content: center;
+    gap: 1.75em;
+    margin-top: 3.5em;
+}
+
+.botao {
+    border: none;
+    background-color: transparent;
+    color: var(--cinza-médio);
+    font-size: 22px;
+}
+
+.botao--ativo {
+    border: none;
+    background-color: transparent;
+    color: var(--verde-destaque);
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: underline;
+}
